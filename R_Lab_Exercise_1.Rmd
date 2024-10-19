@@ -89,6 +89,9 @@ b <- as.double(500)
 c <- as.character(500)
 
 # Enter your code here!
+typeof(a)
+typeof(b)
+typeof(c)
 
 
 
@@ -96,6 +99,7 @@ c <- as.character(500)
 d <- a / b
 
 # Enter your code here!
+typeof(d)
 
 
 
@@ -153,8 +157,12 @@ Hint: Check out the "letters" and "LETTERS" key words in R.
 
 ```{r}
 # Enter your code here.
+lowercase_letters <- letters
+print(lowercase_letters)
 
 
+uppercase_matrix <- matrix(LETTERS, nrow = 2, ncol = 13, byrow = TRUE)
+print(uppercase_matrix)
 
 ```
 
@@ -253,16 +261,18 @@ Once you finished and knit the RMarkdown file into html file, you should be able
 ```{r}
 # Write your code here!
 # Part a
+x <- 4
 
 
 # Part b
-
+y <- 12
 
 # Part c
-
+print(x)
+print(y)
 
 # Part d
-
+z <- y / x
 
 # Part e
 print(paste("y divided by x is equal to ", z))
